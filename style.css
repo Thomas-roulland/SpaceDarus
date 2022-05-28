@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');   
+@import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Roboto";
+    list-style: none;
+    box-sizing: border-box;
+    background: #000;
+  }
+  
+  nav {
+    position: fixed;
+    z-index: 100;
+    height: 8vh;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+  }
+  
+  .logo {
+    color: #fff;
+  
+    font-size: 16px;
+    font-family: 'Lobster', cursive;
+  }
+  
+  nav .nav-links ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  nav .nav-links ul li {
+    padding: 0 4px;
+    list-style: none;
+  }
+  
+  nav .nav-links ul li img {
+    transform: scale(0.45);
+  }
+  
+  section {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .bg img {
+    width: 110vw;
+    height: 110vh;
+    filter: brightness(0.6);
+  }
+  
+  .rock1 {
+    position: absolute !important;
+    left: 10vw !important;
+    top: 20vh !important;
+  }
+  
+  .rock1 img {
+    width: 40%;
+    filter: brightness(0.5);
+  }
+  
+  .text h1 {
+    font-family: "AlphaCentauri" !important ;
+    font-size: 5vw;
+    color: #fff;
+    letter-spacing: 20px;
+    position: absolute;
+    top: 0vh;
+    left: 30vw;
+  }
+
+.middle #un{
+      position : absolute;
+      top : 35vh;
+      left: 38vw;
+      width: 285px;
+      height: 30px;
+      border: double 4px transparent;
+      border-radius: 80px;
+      background-image: linear-gradient( #acd6e3,  #7ed7e3), radial-gradient(circle at top left, #183072,#3067ae,#5da6a7);
+      background-origin: border-box;
+      background-clip: content-box, border-box;
+      text-align: center;
+      text-decoration: none;
+      background-color: #acd6e3;
+      color: #183072;
+      font-size: 1vw;
+      font-weight: bold;
+      font-family: 'Lobster', cursive;
+      
+  }
+
+  ::placeholder{
+    color: #183072;
+    font-family: 'Lobster', cursive;
+    font-size: 1vw;
+    font-weight: bold;
+  }
+
+  
+
+  .middle #deux{
+    position : absolute;
+    top : 40vh;
+    left: 38vw;
+    width: 285px;
+    height: 30px;
+    border: double 4px transparent;
+    border-radius: 80px;
+    background-image: linear-gradient(#acd6e3,  #7ed7e3), radial-gradient(circle at top left,  #183072,#3067ae,#5da6a7);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.middle #trois{
+  position : absolute;
+  top : 45vh;
+  left: 38vw;
+  width: 285px;
+  height: 30px;
+  border: double 4px transparent;
+  border-radius: 80px;
+  background-image: linear-gradient(#acd6e3,  #7ed7e3), radial-gradient(circle at top left,  #183072,#3067ae,#5da6a7);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.middle #quatre{
+  position : absolute;
+  top : 50vh;
+  left: 38vw;
+  width: 285px;
+  height: 30px;
+  border: double 4px transparent;
+  border-radius: 80px;
+  background-image: linear-gradient(#acd6e3,  #7ed7e3), radial-gradient(circle at top left,  #183072,#3067ae,#5da6a7);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.middle #cinq{
+  position : absolute;
+  top : 55vh;
+  left: 38vw;
+  width: 285px;
+  height: 30px;
+  border: double 4px transparent;
+  border-radius: 80px;
+  background-image: linear-gradient(#acd6e3,  #7ed7e3), radial-gradient(circle at top left,  #183072,#3067ae,#5da6a7);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.middle #six{
+  position : absolute;
+  top : 60vh;
+  left: 38vw;
+  width: 285px;
+  height: 30px;
+  border: double 4px transparent;
+  border-radius: 80px;
+  background-image: linear-gradient(#acd6e3,  #7ed7e3), radial-gradient(circle at top left,  #183072,#3067ae,#5da6a7);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.middle #sept{
+  position : absolute;
+  top : 65vh;
+  left: 38vw;
+  width: 285px;
+  height: 30px;
+  border: double 4px transparent;
+  border-radius: 80px;
+  background-image: linear-gradient(#acd6e3,  #7ed7e3), radial-gradient(circle at top left,  #183072,#3067ae,#5da6a7);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.middle #huit{
+  position : absolute;
+  top : 70vh;
+  left: 38vw;
+  width: 285px;
+  height: 30px;
+  border: double 4px transparent;
+  border-radius: 80px;
+  background-image: linear-gradient(#acd6e3,  #7ed7e3), radial-gradient(circle at top left,  #183072,#3067ae,#5da6a7);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.middle #neuf{
+  position : absolute;
+  top : 75vh;
+  left: 38vw;
+  width: 285px;
+  height: 30px;
+  border: double 4px transparent;
+  border-radius: 80px;
+  background-image: linear-gradient(#acd6e3,  #7ed7e3), radial-gradient(circle at top left,  #183072,#3067ae,#5da6a7);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+.wrap #lol{
+  position : absolute;
+    top : 50vh;
+    left: 38vw;
+}
+
+.wrap #deux{
+  position : absolute;
+    top : 83vh;
+    left: 38vw;
+}
+
+ #btn2{
+  position : absolute;
+  top : 83vh;
+  left: 38vw;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
+  text-decoration: underline;
+}
+
+#lien {
+  text-decoration: none;
+  position : absolute;
+    top : 45vh;
+    left: 39vw;
+  color: white;
+  font-family: 'Lobster', cursive;
+}
+
+
+#lien:hover{
+  transition:0.5s;
+  color: #7ed7e3;
+  font-size: 18px;
+  text-decoration: underline;
+}
+#titreIns{
+  position : absolute;
+  top : 25vh;
+  left: 42vw;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
+  text-decoration: underline;
+}
+
+#titreCon{
+  position : absolute;
+  top : 25vh;
+  left: 42vw;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
+  text-decoration: underline;
+}
+
+.button {
+  min-width: 300px;
+  min-height: 60px;
+  font-family: 'Lobster', cursive;
+  font-size: 1vw;;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #4FD1C5;
+  background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  
+  }
+
+button::before {
+content: '';
+  border-radius: 1000px;
+  min-width: calc(300px + 12px);
+  min-height: calc(60px + 12px);
+  border: 6px solid #5da6a7;
+  box-shadow: 0 0 60px rgba(0,255,203,.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+  
+}
+
+.button:hover, .button:focus {
+  color: #313133;
+  transform: translateY(-6px);
+}
+
+button:hover::before, button:focus::before {
+  opacity: 1;
+  
+}
+
+button::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  border: 6px solid #00FFCB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1s infinite;
+  
+}
+
+button:hover::after, button:focus::after {
+  animation: none;
+  display: none;
+  
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+
+
+  .earth img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 34vw;
+    top: 25vh;
+    z-index: 1;
+    filter: brightness(0.7);
+  }
+  
+  .mid {
+    left: -150px !important;
+    bottom: -100px !important;
+    top: unset !important;
+  }
+  
+  .mid img {
+    width: 100%;
+    z-index: 2;
+    left: -20px;
+    top: 20vh !important;
+    filter: brightness(0.8);
+  }
+  
+  .fore {
+    right: -50px !important;
+    bottom: -200px !important;
+    top: 0px !important;
+    left: unset !important;
+  }
+  
+  .fore img {
+    width: 400px;
+    height: 110vh;
+    z-index: 3;
+    filter: brightness(0.5);
+  }
+  
+  /* SWIPER */
+  
+  #sectiontwo {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .rockbg1 {
+    position: absolute;
+    transform: scale(0.2);
+    filter: brightness(0.2);
+    top: 20vh;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .planet-links {
+    width: 95%;
+    height: 5vh;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: 'Lobster', cursive;
+  }
+  
+  .planet-links .swiper-pagination-bullet {
+    opacity: 0.2;
+    outline: none;
+  }
+  .planet-links .swiper-pagination-bullet-active {
+    color: #fff;
+    opacity: 1;
+  }
+  
+  .swiper-pagination-clickable .swiper-pagination-bullet {
+    background: transparent;
+  }
+  
+  .swiper-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 50px 0;
+    
+  }
+  
+  .swiper-wrapper {
+    transition-delay: 0.5s;
+    
+  }
+  
+  .swiper-slide {
+    height: 400px !important;
+    width: 90% !important;
+    background: transparent;
+    
+  }
+  
+  .swiper-slide:nth-child(1) .slide-img {
+    background-image: url("images/mercury.png");
+  }
+  .swiper-slide:nth-child(2) .slide-img {
+    background-image: url("images/venus.png");
+  }
+  .swiper-slide:nth-child(3) .slide-img {
+    background-image: url("images/earth1.png");
+  }
+  .swiper-slide:nth-child(4) .slide-img {
+    background-image: url("images/mars.png");
+  }
+  .swiper-slide:nth-child(5) .slide-img {
+    background-image: url("images/jupiter.png");
+  }
+  .swiper-slide:nth-child(6) .slide-img {
+    background-image: url("images/saturn.png");
+  }
+  .swiper-slide:nth-child(7) .slide-img {
+    background-image: url("images/uranus.png");
+  }
+  .swiper-slide:nth-child(8) .slide-img {
+    background-image: url("images/neptune.png");
+  }
+  
+  .slide-img {
+    background-position: "center";
+    background-repeat: no-repeat !important;
+    background-size: contain;
+    width: 30%;
+    height: 100%;
+    
+  }
+  
+  .slide-number {
+    position: absolute;
+    top: -30px;
+    left: 30%;
+    width: 500px;
+    height: 120px;
+    overflow: hidden;
+    z-index: 10;
+    
+  }
+  
+  .slide-number p {
+    font-size: 40px;
+    font-family: "AlphaCentauri" !important;
+    color: #fff;
+    position: relative;
+    
+  }
+  
+  .slide-number p span {
+    position: absolute;
+  }
+  
+  .slide-detail {
+    position: absolute;
+    top: 130px;
+    left: 30%;
+    z-index: 10;
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+    
+  }
+  
+  .slide-detail p {
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    opacity: 0.8;
+    line-height: 30px;
+    
+  }
+  
+  .slide-detail p span {
+    position: absolute;
+    
+  }
+  
+  .slide-detail-facts {
+    position: absolute;
+    top: 240px;
+    left: 30%;
+    z-index: 10;
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+    color: #fff;
+    
+  }
+  .slide-detail-facts div {
+    display: flex;
+    position: relative;
+    
+  }
+  .slide-detail-facts div h5 {
+    margin-right: 20px;
+    
+  }
+  
+  .slide-text {
+    position: absolute;
+    top: -150px;
+    left: 22%;
+    z-index: 9;
+    width: 200px;
+    height: 400px;
+    overflow: hidden;
+    opacity: 0.1 !important;
+    
+  }
+  
+  .slide-text h4 {
+    color: #fff;
+    font-size: 100px;
+    position: relative;
+    
+  }
+  .slide-text h4 span {
+    position: absolute;
+  }
+  
+  p{
+      color: white;
+  }
+
+  li{
+      
+      font-size: 14px;
+    color: #fff;
+    position: relative;
+    opacity: 0.8;
+    line-height: 30px;
+  }
+
+ #blanc {
+     text-decoration: none;
+     color: white;
+ }
+
+ #blanc:hover{
+     color: #c15564;
+     transition: 0.5s;
+ }
